@@ -1,0 +1,710 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    body > *{
+        width:100%
+    }
+    /* =============== Start navbar ================ */
+    .navbar{
+        padding:0 10px;
+    }
+    /* =============== End navbar ================ */
+
+    /* =============== Start Gallary ================ */
+   
+    .gallary a.btn{
+        font-size: 1rem;
+        margin-top: 10px!important;
+    }
+    /* =============== End Gallary ================ */
+
+    /* ======================= Start home Style ======================= */
+/* @@@@@@@@@@@@@@@@ slider @@@@@@@@@@@@@@@@ */
+
+    .carousel-inner{
+        width:100%;
+        height:auto;
+    }
+    
+    .slider-header{
+        font-size: 1.4rem;
+    }
+    .slider-desc{
+        font-size: 0.7rem!important;
+        word-spacing: 0px;
+        font-weight: 400;
+    }
+    .slider-main-content{
+        top:5%;
+    }
+    /* .slider-content{
+        margin: 3%;
+    }
+    .slider-content-title{
+        font-size: 1.2rem!important;
+    }
+    .slider-content-heading{
+        font-size: 1.8rem!important;
+    } */
+    /* @@@@@@@@@@@@ about section */
+    .about-details .about-details-title{
+        font-size: 0.9rem;
+        display: inline;
+        position: relative;
+        border: 0;
+    }
+    .about-details .about-details-title::after{
+        content: "";
+        position: absolute;
+        bottom:0;
+        top:98%;
+        background-color: #888;
+    }
+
+    .about-details-heading{
+        font-size: 1.5rem;
+        
+    
+    }
+    .about-details-desc{
+        font-size: 0.85rem;
+    }
+    .season-time-title{
+        font-size:1rem;
+        letter-spacing: 0.1rem;
+    }
+    .season-time-desc{
+        font-size: 1.2rem;
+        
+    }
+    .our-counter{
+        display: flex;
+        justify-content: center;
+    }
+    .small-counter{
+        max-width: 28%;
+        min-height: 100px;
+        margin: 2%!important;
+        padding: 5%;
+    }
+    .counter-value{
+        color:#fff;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 2%;
+    }
+    .counter-lable{
+        color:#888;
+        margin-bottom: 0;
+    }
+    /* @@@@@@@@@@@ sponser @@@@@@@@@@@ */
+    .sponser-content{
+        margin: 5%;
+    }
+    .sponser-item{
+        padding: 5% 1% ;
+        border: 0.5px solid #888; 
+        max-height:30vh;
+    }
+    /* @@@@@@@@@ header section @@@@@@@@@ */
+    .heading-font{
+        font-size: 1.5rem;
+    }
+    /* @@@@@@@@@@@@ home-our-team @@@@@@@@@@@ */
+    .home-our-team a.btn{
+        bottom:1%;
+        font-size: 0.7rem;
+    }
+    /* ======================= End home Style ======================= */
+    /* ======================= start about us Style ======================= */
+    /* @@@@@@@@@@@@ see @@@@@@@@@@@ */
+    .see-item,.us-item{
+        margin: 5% 2%!important;
+        width: 90%;
+    }
+    .see-item{
+        min-width: 90%;
+    }
+    /* @@@@@@@@@@@@ us @@@@@@@@@@ */
+    
+    .us-item:hover{
+        transform: scale(0.9);
+    }
+    /* @@@@@@@@@@@@ testmonial @@@@@@@@@@@ */
+    .we-feel{
+        padding-bottom: 20vh;
+    }
+    .testmonial-slider{
+        width:95%;
+        height:100vh;
+    }
+    .testmonial-text{
+        font-size:0.8rem;
+        margin-bottom: 40%;
+    }
+    .home-testmonial-slider{
+        height: 100vh;
+    }
+    .testmonial-item img{
+        width:20%;
+        position: absolute;
+        top: 46%;
+        left: 36%;
+    }
+    .textmonial-name{
+        font-size: 1rem;
+    }
+    .testmonial-role{
+        font-size: 0.8rem;
+    }
+    /* @@@@@@@@ our project @@@@@@@@@@ */
+    .project-content a.btn{
+        font-size: 1rem;
+        padding:10px 30px
+    }
+    /* @@@@@@@@@@@ blog @@@@@@@@@@@@  */
+    .blog-content .card{
+        margin: 5%;
+    }
+    /* ======================= End about us Style ======================= */
+
+    /* =============== Start Footer ================ */
+    footer .row > div{
+        margin: 2% 0;
+        /* padding:0 45%; */
+        text-align: center;
+    }
+    .footer-icon{
+        transform: translateX(38%);
+    }
+    
+    .footer-desc{
+        font-size: 0.6rem;
+    }
+    
+    /* =============== End Footer ================ */
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+     /* =============== Start navbar ================ */
+     .navbar{
+        padding:0 10px;
+    }
+    .navbar-nav .nav-item .nav-link:hover,
+    .navbar-nav .nav-item .nav-link.active{
+        transform:scale(1.2)
+    }
+    /* =============== End navbar ================ */
+    /* =============== Start Gallary ================ */
+    .gallary a.btn{
+        font-size: 1.2rem;
+        margin-top: 10px!important;
+    }
+    /* =============== End Gallary ================ */
+
+    /* ======================= Start home Style ======================= */
+/* @@@@@@@@@@@@@@@@ slider @@@@@@@@@@@@@@@@ */
+
+    .carousel-inner{
+        width:100%;
+        height:100vh;
+    }
+    .carousel-inner a.btn{
+        font-size: 0.8rem;
+    }
+    .maim-heading {
+        font-size: 3rem!important;
+    }
+    .slider-desc{
+        font-size: 0.8rem!important;
+        word-spacing: 0px;
+        font-weight: 400;
+    }
+    /* .slider-content{
+        margin: 3%;
+    }
+    .slider-content-title{
+        font-size: 1.5rem!important;
+    }
+    .slider-content-heading{
+        font-size: 2.1rem!important;
+    } */
+    /* @@@@@@@@@@@@ about section */
+    .about-details .about-details-title{
+        font-size: 1.1rem;
+        
+    }
+    .about-details-heading{
+        font-size: 1.6rem;
+    }
+    .about-details-desc{
+        font-size: 1rem;
+    }
+    .season-time-title{
+        font-size:1rem;
+        letter-spacing: 0.1rem;
+    }
+    .season-time-desc{
+        font-size: 1.2rem;
+        
+    }
+    .our-counter{
+        display: flex;
+        justify-content: center;
+    }
+    .small-counter{
+        max-width: 28%;
+        min-height: 100px;
+        margin: 2%!important;
+        padding: 5%;
+    }
+    .counter-value{
+        color:#fff;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 2%;
+    }
+    .counter-lable{
+        color:#888;
+        margin-bottom: 0;
+    }
+    /* @@@@@@@@@@@ sponser @@@@@@@@@@@ */
+    .sponser-content{
+        margin: 5%;
+    }
+    .sponser-item{
+        padding: 5% 1% ;
+        border: 0.5px solid #888; 
+        max-height:30vh;
+    }
+    /* @@@@@@@@@ header section @@@@@@@@@ */
+    .heading-font{
+        font-size: 1.5rem;
+    }
+    /* @@@@@@@@@@@@ home-our-team @@@@@@@@@@@ */
+    .home-our-team a.btn{
+        bottom:1%;
+        font-size: 0.7rem;
+    }
+    /* ======================= End home Style ======================= */
+    /* ======================= start about us Style ======================= */
+    /* @@@@@@@@@@@@ see @@@@@@@@@@@ */
+    .see-item,.us-item{
+        margin: 5% 2%!important;
+        width: 90%;
+    }
+    .see-item{
+        min-width: 80%;
+    }
+    .see-item-content h3{
+        transform: translateX(-20px);
+    }
+    /* @@@@@@@@@@@@ us @@@@@@@@@@ */
+    
+    .us-item:hover{
+        transform: scale(1.1);
+    }
+    /* @@@@@@@@@@@@ testmonial @@@@@@@@@@@ */
+    .we-feel{
+        padding-bottom: 20vh;
+    }
+    .testmonial-slider{
+        width:95%;
+        height:90vh;
+
+    }
+    .testmonial-text{
+        font-size:0.8rem;
+        margin-bottom: 30%;
+    }
+    .home-testmonial-slider{
+        height: 100vh;
+    }
+    .testmonial-item img{
+        width:18%;
+        position: absolute;
+        left:35%;
+        top:42%;
+    }
+    .textmonial-name{
+        font-size: 1rem;
+    }
+    .testmonial-role{
+        font-size: 0.8rem;
+    }
+    /* @@@@@@@@ our project @@@@@@@@@@ */
+    .project-content a.btn{
+        font-size: 1rem;
+        padding:10px 30px
+    }
+    /* @@@@@@@@@@@ blog @@@@@@@@@@@@  */
+    .blog-content .card{
+        margin: 5%;
+    }
+    /* ======================= End about us Style ======================= */
+
+     /* ======================= Start Footer Style ======================= */
+     .footer-icon{
+        transform: translateX(38%);
+    }
+    .footer-desc{
+        font-size: 0.7rem;
+    }
+    .padding{
+         padding:0 35%
+    }
+    footer .row > div{
+        text-align: center;
+    }
+    .footer-line{
+        width:80%;
+    }
+
+    /* ======================= End Footer Style ======================= */
+
+}
+
+
+   
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* =============== start gallary ================ */
+    .gallary a.btn{
+        font-size: 1rem;
+        margin-top: 10px!important;
+    }
+    /* =============== End gallary ================ */
+    /* ======================= Start home Style ======================= */
+/* @@@@@@@@@@@@@@@@ slider @@@@@@@@@@@@@@@@ */
+
+.carousel-inner{
+    width:100%;
+    height:100vh;
+}
+.carousel-inner a.btn{
+    font-size: 0.7rem;
+}
+.slider-main-content{
+    right:15%
+}
+.maim-heading {
+    font-size: 2rem!important;
+}
+.slider-desc{
+    font-size: 0.8rem!important;
+    word-spacing: 0px;
+    font-weight: 400;
+}
+/* .slider-content{
+    margin: 3%;
+}
+.slider-content-title{
+    font-size: 1.3rem!important;
+}
+.slider-content-heading{
+    font-size: 2rem!important;
+} */
+/* @@@@@@@@@@@@ about section */
+.about-details .about-details-title{
+    font-size: 1.1rem;
+    
+}
+.about-details-heading{
+    font-size: 1.8rem;
+}
+.about-details-desc{
+    font-size: 1.5rem;
+}
+.season-time-title{
+    font-size:1.2rem;
+    letter-spacing: 0.1rem;
+}
+.season-time-desc{
+    font-size: 1.5rem;
+    
+}
+.our-counter{
+    display: flex;
+    justify-content: center;
+}
+.small-counter{
+    max-width: 20%;
+    min-height: 100px;
+    margin: 2%!important;
+    padding: 5%;
+}
+.counter-value{
+    color:#fff;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+.counter-lable{
+    color:#888;
+    margin-bottom: 0;
+}
+/* @@@@@@@@@@@ sponser @@@@@@@@@@@ */
+.sponser-content{
+    margin: 5%;
+}
+.sponser-item{
+    padding: 5% 1% ;
+    border: 0.5px solid #888; 
+    max-height:30vh;
+}
+/* @@@@@@@@@ header section @@@@@@@@@ */
+.heading-font{
+    font-size: 1.8rem;
+}
+/* @@@@@@@@@@@@ home-our-team @@@@@@@@@@@ */
+.home-our-team a.btn{
+    bottom:1%;
+    font-size: 0.8rem;
+}
+/* ======================= End home Style ======================= */
+/* ======================= start about us Style ======================= */
+/* @@@@@@@@@@@@ see @@@@@@@@@@@ */
+.see-item,.us-item{
+    margin: 5% 2%!important;
+    /* width: 90%!important; */
+}
+.see-item{
+    min-width: 40%;
+}
+/* @@@@@@@@@@@@ us @@@@@@@@@@ */
+
+.us-item:hover{
+    transform: scale(1.1);
+}
+/* @@@@@@@@@@@@ testmonial @@@@@@@@@@@ */
+.we-feel{
+    padding-bottom: 20vh;
+}
+.testmonial-slider{
+    width:95%;
+    height:90vh;
+
+}
+.testmonial-text{
+    font-size:1.1rem
+}
+.home-testmonial-slider{
+    height: 100vh;
+}
+.testmonial-item img{
+    width:14%;
+    position: absolute;
+    top:48%;
+    left:40%
+}
+.textmonial-name{
+    font-size: 1.3rem;
+}
+.testmonial-role{
+    font-size: 1rem;
+}
+/* @@@@@@@@ our project @@@@@@@@@@ */
+.project-content a.btn{
+    font-size: 1.1rem;
+    padding:10px 30px
+}
+/* @@@@@@@@@@@ blog @@@@@@@@@@@@  */
+
+/* ======================= End about us Style ======================= */
+
+     /* =============== Start Footer ================ */
+     footer .row > div{
+        margin-bottom: 3%;
+    }
+    footer .row > div p{
+        font-size:0.9rem
+
+    }
+    footer .row > div p.h3{
+        font-size:1.3rem
+        
+    }
+    
+    .footer-desc{
+        font-size: 14px;
+    }
+    .padding{
+        padding:0 40%
+    }
+    .footer-desc{
+        font-size: 13px;
+    }
+    /* =============== End Footer ================ */
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* =============== start gallary ================ */
+    .gallary a.btn{
+        font-size: 1rem;
+        margin-top: 10px!important;
+    }
+    /* =============== End gallary ================ */
+        /* ======================= Start home Style ======================= */
+/* @@@@@@@@@@@@@@@@ slider @@@@@@@@@@@@@@@@ */
+
+.carousel-inner{
+    width:100%;
+    height:100vh;
+}
+.carousel-inner a.btn{
+    font-size: 1.1rem;
+}
+.slider-main-content{
+    right:5%
+}
+.maim-heading {
+    font-size: 4rem!important;
+}
+.slider-desc{
+    font-size: 1.2rem!important;
+    word-spacing: 0px;
+    font-weight: 400;
+}
+/* .slider-content{
+    margin: 3%;
+}
+.slider-content-title{
+    font-size: 2rem!important;
+}
+.slider-content-heading{
+    font-size: 3rem!important;
+} */
+/* @@@@@@@@@@@@ about section */
+.about-details .about-details-title{
+    font-size: 0.9rem;
+    
+}
+.about-details-heading{
+    font-size: 1.8rem;
+}
+.about-details-desc{
+    font-size: 1.1rem;
+}
+.season-time-title{
+    font-size:1rem;
+    letter-spacing: 0.1rem;
+}
+.season-time-desc{
+    font-size: 1.2rem;
+    
+}
+.our-counter{
+    display: flex;
+    justify-content: center;
+}
+.small-counter{
+    max-width: 15%;
+    max-height: 100px;
+
+    margin: 2%!important;
+    padding: 2.5% 3% 5% 2.5%;
+}
+.counter-value{
+    color:#fff;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+.counter-lable{
+    color:#888;
+    margin-bottom: 0;
+}
+/* @@@@@@@@@@@ sponser @@@@@@@@@@@ */
+.sponser-content{
+    margin: 5%;
+}
+.sponser-item{
+    padding: 5% 1% ;
+    border: 0.5px solid #888; 
+    max-height:40vh;
+}
+/* @@@@@@@@@ header section @@@@@@@@@ */
+.heading-font{
+    font-size: 2rem;
+}
+/* @@@@@@@@@@@@ home-our-team @@@@@@@@@@@ */
+.home-our-team a.btn{
+    bottom:1%;
+    font-size: 1.2rem;
+}
+/* @@@@@@@@@@@@ blog @@@@@@@@@@@@ */
+
+/* ======================= End home Style ======================= */
+/* ======================= start about us Style ======================= */
+/* @@@@@@@@@@@@ see @@@@@@@@@@@ */
+.see-item,.us-item{
+    margin: 3% 2% !important;
+}
+/* @@@@@@@@@@@@ us @@@@@@@@@@ */
+
+.us-item:hover{
+    transform: scale(1.1);
+}
+/* @@@@@@@@@@@@ testmonial @@@@@@@@@@@ */
+.we-feel{
+    padding-bottom: 20vh;
+}
+.testmonial-slider{
+    width:95%;
+    height:90vh;
+
+}
+.testmonial-text{
+    font-size:1.1rem
+}
+.home-testmonial-slider{
+    height: 100vh;
+}
+.testmonial-item img{
+    width:10%
+}
+.textmonial-name{
+    font-size: 1.3rem;
+}
+.testmonial-role{
+    font-size: 1rem;
+}
+/* @@@@@@@@ our project @@@@@@@@@@ */
+.project-content a.btn{
+    font-size: 1.1rem;
+    padding:10px 30px
+}
+/* @@@@@@@@@@@ blog @@@@@@@@@@@@  */
+
+/* ======================= End about us Style ======================= */
+    /* =============== start footer ================ */
+    footer .row > div.col-md-6{
+        padding-left:10%;
+    }
+    .footer-desc{
+        font-size: 15px;
+    }
+    .padding{
+        padding:0 35%
+    }
+    /* =============== End footer ================ */
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+    .us-item{
+        margin: 0!important;
+        margin-bottom:2% ;
+        transform:scale(0.9);
+        max-width: 30%!important;
+    }
+    .us-item:hover{
+        transform:scale(1);
+
+    }
+
+}
